@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #tbl1 {
+            border: 3px red;
+            border-collapse: collapse;
+            width: 400px;
+            height: 200px;
+        }
+
+        #tbl1 td {
+           border: 3px solid red;
+           background-color: green;
+           padding: 8px;
+           color: white;
+           border-collapse: collapse;
+            }
+
+
+        #tbl1 th {
+           border: 3px solid red;
+           background-color: yellow;
+           padding-top: 6px;
+           padding-bottom: 6px;
+           text-align: center;
+           border-collapse: collapse;
+            }
+
+        #tbl2 {
+            border-collapse: collapse;
+            width: 400px;
+            height: 200px;
+            margin-top: 70px;
+        }
+
+            #tbl2 td, #tbl2 th {
+                padding: 8px;
+            }
+
+            #tbl2 tr:nth-child(even) {
+                background-color: lightgreen;
+            }
+
+            #tbl2 tr:nth-child(odd) {
+                background-color: white;
+            }
+
+
+            #tbl2 th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+            }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+
+        <table id="tbl1">
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Team</th>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>John</td>
+                <td>Red</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Peter</td>
+                <td>Blue</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Henry</td>
+                <td>Green</td>
+            </tr>
+
+
+        </table>
+
+        <table id="tbl2">
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Steve</td>
+                <td>Manager</td>
+                <td>1,00,000</td>
+            </tr>
+            <tr>
+                <td>SURAJ</td>
+                <td>Assistant Manager</td>
+                <td>50,000</td>
+            </tr>
+            <tr>
+                <td>Kushboo</td>
+                <td>Analyst</td>
+                <td>65,000</td>
+            </tr>
+            <tr>
+                <td>Kartik</td>
+                <td>Worker</td>
+                <td>20,000</td>
+            </tr>
+            <tr>
+                <td>Saksham</td>
+                <td>Worker</td>
+                <td>20,000</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
